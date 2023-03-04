@@ -1,9 +1,8 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #FFC300 ;
+    margin: 0;
+    padding: 0;
+    background-color: #FFC300 ;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,11 +23,11 @@ ul {
     text-decoration: none;
   }
   
+  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
   }
-
-  #color-container {
+#color-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,12 +41,12 @@ ul {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     transition: background-color 0.3s ease;
   }
-  #colorName {
+  #answer-input {
     text-align: center;
     font-size: 24px;
     margin: 30px auto 0;
   }
-  #color-button{
+  #check-answer-button{
     padding: 8px 16px;
     border-radius: 4px;
     background-color: white;
@@ -59,7 +58,7 @@ ul {
     transition: all 0.3s ease-in-out;
     margin: 25px auto 0;
   }
-  #color-button:hover{
+  #check-answer-button:hover{
     background-color: #f5f5f5;
     border-color: #bbb;
   }
